@@ -25,9 +25,9 @@ Prerequisites
 
 ## How to Run Application on an Android Device
 
-Connect you phone to your machine through USB.
-You will be shown with the list of devices connected to/running on your machine, select the desired one.
-Select the ActivityTestSuit from the dropdown, select the connected physical device and click on Play icon
+1. Connect you phone to your machine through USB.
+2. You will be shown with the list of devices connected to/running on your machine, select the desired one.
+3. Select the ActivityTestSuit from the dropdown, select the connected physical device and click on Play icon
 
 **Bonus Question:**
 Part of the app functionality is currently not working. Fix it if you can.

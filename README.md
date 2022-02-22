@@ -10,20 +10,25 @@ Prerequisites
 - Github account
 - Android Studio
 
-## Deliverables:
-1. Create a series of testcases based on the application functionality. Make sure that you give detailed instructions for each test case (step preconditions, steps to execute test case, expected results, etc). You can use any format you prefer.
-2. Automate at least 5 (the more, the better!) of the previously created test cases. Use of Espresso as an automation tool is highly preferred. As an alternative you can use UI Automator. No other tool is accepted.
-3. Provide a clear set of instructions how to run tests.
-4. Provide a test report for executed test cases (manual and automated)
-5. In the case of finding bugs, provide a separate bug report
-6. Provide an overall evaluation test report for the application (issues, risks, recommendation, etc.). Make it personal! Explain why you decided to automate what you’ve automated, why you decided to test what you’ve tested, what test strategies you decided to use and why... Summarising, guide us through your mind!
+## How to use the source code to run the project?
 
-All manual deliverables should be added to a "Reports" folder in root of project.
+1. Download the source code from here.
+2. Import the project in the Android Studio
+3. Once the gradle build/sync is done you are good to go to use it.
 
-Once you are done,  push your test assignment to your fork. Please provide user **bb-qa** access to your fork and share a link to your fork when you are done with the assignment.
+## How to Run Application on Emulator
+
+1. Create a required emulator with Play store using Android studio's AVD manager. 
+2. Click the play button on the top bar of Android studio. 
+3. The list of devices which are running would be shown in studio, select the desired one. 
+4. Select the ActivityTestSuit from the dropdown, select emulator and click on Play icon
+
+## How to Run Application on an Android Device
+
+Connect you phone to your machine through USB.
+You will be shown with the list of devices connected to/running on your machine, select the desired one.
+Select the ActivityTestSuit from the dropdown, select the connected physical device and click on Play icon
 
 **Bonus Question:**
 Part of the app functionality is currently not working. Fix it if you can.
-
-**NOTE:**
-If you need to take any assumptions please note them as part of your answers.
+Answer> The Google Maps functionality was not working and it has been fixed. 
